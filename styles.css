@@ -1,0 +1,7 @@
+.mainCont{
+    background-image: url("images/hard-cover-books.jpg");
+    background-repeat: no-repeat;
+}
+.item{
+  margin-right: 10px;
+}
