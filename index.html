@@ -8,10 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
     <title>Pantherr</title>
   </head>
   <body>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><img src="images/il_fullxfull.png"></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,31 +21,77 @@
               <div class="navbar-collapse collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item active item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#Home">Home</a>
                   </li>
                   <li class="nav-item item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="#About">About</a>
                   </li>
                   <li class="nav-item item">
-                    <a class="nav-link" href="#">Features</a>
+                    <a class="nav-link" href="#Features">Features</a>
                   </li>
                   <li class="nav-item item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#Contact">Contact</a>
                   </li>
                 </ul>
               </div>
             </div>
          </nav>
-         <div class="container-fluid mainCont">
-          <div>
-            <h1 class="display-1">AIM <br>HIGHER</h1>
+         <div id="Home" class="container-fluid ">
+          <div class="mainCont">
+            <h1 class="display-1 text-light" style="font-family: 'Kalam', cursive">AIM <br>HIGHER</h1>
             <button class="btn btn-outline-light btn-lg">What's your goal</button>
           </div>
          </div>
-         <div class="About">
-
+         <div id="About">
+           <div class="jumbotron">
+           
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore recusandae perferendis enim est praesentium sunt.
+               Omnis asperiores placeat officiis, labore quisquam laudantium ex corporis nihil sit inventore vero accusantium quo?
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum totam sit voluptate, illo, perferendis nemo quia 
+               dicta facilis nobis, voluptatibus quas tempore maxime quam sapiente error ex dolores et necessitatibus.
+             </p>
+           </div>
          </div>
-         <div class="Features">
+         <div id="Features">
+           <h1 class="text-center">Features</h1>
+           <div class="row">
+             <div class="col-lg-3 col-sm-6">
+               <div class="card shadow p-3 mb-5 rounded">
+                 <img src="images/hard-cover-books.jpg" class="card-img-top">
+                 <div class="card-body">
+                   <h5 class="card-title">Feature Name</h5>
+                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores magnam esse nisi sunt dolorum tempore.</p>
+                 </div>
+               </div>
+             </div>
+             <div class="col-lg-3 col-sm-6">
+              <div class="card shadow p-3 mb-5 rounded">
+                <img src="images/hard-cover-books.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Feature Name</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores magnam esse nisi sunt dolorum tempore.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+              <div class="card shadow p-3 mb-5 rounded">
+                <img src="images/hard-cover-books.jpg" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">Feature Name</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores magnam esse nisi sunt dolorum tempore.</p>
+                </div>
+              </div>
+            </div>
+             <div class="col-lg-3 col-sm-6">
+               <div class="card shadow p-3 mb-5 rounded">
+                 <img src="images/hard-cover-books.jpg" class="card-img-top">
+                 <div class="card-body">
+                   <h5 class="card-title">Feature Name</h5>
+                   <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores magnam esse nisi sunt dolorum tempore.</p>
+                 </div>
+               </div>
+             </div>
+           </div>
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -62,6 +109,9 @@
                 <img src="images/hard-cover-books.jpg" class="d-block w-100">
               </div>
             </div>
+         </div>
+         <div id="Contact">
+
          </div>
      </body>
      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
