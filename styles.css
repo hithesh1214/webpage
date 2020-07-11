@@ -6,6 +6,17 @@ html{
     background-repeat: no-repeat;
     padding: 50px;
 }
+i{
+  margin-bottom: 15px;
+}
+.column{
+  text-align: left;
+  line-height: 1.5;
+}
+.row{
+  padding:1rem;
+  margin: 2rem 0;
+}
 .item{
   margin-right: 10px;
 }
